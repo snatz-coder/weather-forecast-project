@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Further Improvements on App
+
+* Search feature to input any city in the world 
+* Improvements in UI design
+* Accessing user's current location to give back weather forecast of their location
+* Adding animations of weather for example rain, sunny, cloudy, snow.

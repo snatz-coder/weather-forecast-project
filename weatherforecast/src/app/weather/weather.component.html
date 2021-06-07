@@ -1,1 +1,15 @@
-<p>weather works!</p>
+
+<div class="container">
+  <h1>5 Day Weather Forecast of {{ city | uppercase }}</h1>
+  <div class="row" *ngFor ="let weather of forecast">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h3>Date:{{ weather.date  | date}}</h3>
+          <h3>Max Temperature:{{ weather.tempMax}} deg</h3>
+          <h3>Min Temperature:{{ weather.tempMin}} deg</h3>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
